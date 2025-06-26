@@ -8,7 +8,8 @@ const app = express();
 // Allowed origins
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://kinplusfeedback.netlify.app"
+  "https://kinplusfeedback.netlify.app",
+  "https://kinplusfeedbackdashboard.netlify.app"
 ];
 
 app.use(cors({
